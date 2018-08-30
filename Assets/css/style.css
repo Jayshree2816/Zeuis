@@ -1,0 +1,234 @@
+.container {
+  width: 100%;
+}
+
+.wrapper {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1 {
+  box-sizing: border-box;
+  width: 150px;
+  background-color: transparent;
+  font-size: 0;
+  position: absolute;
+  margin-left: 300px;
+  z-index: 1;
+}
+h1 img {
+  width: 100%;
+}
+
+.behaviour-analytics {
+  position: relative;
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #FFF;
+  padding: 150px 0 100px;
+  text-align: center;
+  box-shadow: inset -6px -200px 161px -110px #00465c;
+}
+.behaviour-analytics h2 {
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+.behaviour-analytics p {
+  box-sizing: border-box;
+  width: 50%;
+  margin: auto;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.zeuis-Form {
+  background-color: #00465c;
+  color: #FFF;
+  font-family: sans-serif;
+  padding: 10px 0;
+}
+.zeuis-Form .what-is-zeuis {
+  width: 47%;
+  margin-right: 80px;
+  display: inline-block;
+  padding-bottom: 100px;
+}
+.zeuis-Form .what-is-zeuis h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  padding-bottom: 20px;
+}
+.zeuis-Form .what-is-zeuis p {
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+.zeuis-Form .what-is-zeuis span {
+  font-weight: 600;
+}
+
+.free-account-form {
+  width: 35%;
+  display: inline-block;
+  background-color: #FFF;
+  color: black;
+  border-radius: 5px;
+  padding: 40px 60px 60px;
+}
+.free-account-form h2 {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.free-account-form label {
+  display: block;
+  margin-bottom: 12px;
+}
+.free-account-form input {
+  width: 94%;
+  margin-top: 5px;
+  padding: 16px 10px 16px 10px;
+  border-radius: 5px;
+  display: block;
+  font-size: 17px;
+}
+.free-account-form #submit {
+  width: 35%;
+  padding: 12px 0px;
+  border-radius: 0;
+  background-color: #00a3e5;
+  color: #FFF;
+  font-size: 16px;
+  box-shadow: 0px 5px 7px -4px grey;
+  transition: background-color 3s;
+}
+.free-account-form #submit:hover {
+  background-color: #004c5e;
+}
+
+.behaviour-Market {
+  padding: 60px 0;
+  border-bottom: 3px solid rgba(128, 128, 128, 0.16);
+  position: relative;
+}
+.behaviour-Market h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: #00465c;
+  margin-bottom: 70px;
+  font-weight: 600;
+}
+.behaviour-Market li {
+  display: inline-block;
+  width: 15%;
+  margin-right: 71px;
+}
+.behaviour-Market li:last-child {
+  margin-right: 0;
+}
+.behaviour-Market a {
+  display: inline-block;
+  width: 100%;
+}
+.behaviour-Market img {
+  width: 100%;
+}
+.behaviour-Market #comments {
+  width: 2%;
+  padding: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background-color: #19d1c7;
+  transition: background-color 3s;
+}
+.behaviour-Market #comments:hover {
+  background-color: #004c5e;
+}
+.behaviour-Market #comments img {
+  transform: rotateY(180deg);
+}
+
+.analytical-behaviour {
+  padding-bottom: 80px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.29);
+}
+.analytical-behaviour .real-time {
+  padding: 80px 0;
+}
+.analytical-behaviour .real-time-info {
+  display: inline-block;
+  width: 47%;
+  vertical-align: top;
+  margin: 0 68px 68px 0;
+  padding-top: 80px;
+}
+.analytical-behaviour .customer-lifecycle img {
+  margin: 0 68px 68px 0;
+}
+.analytical-behaviour .customer-lifecycle .lifecycle-info {
+  display: inline-block;
+  width: 47%;
+  vertical-align: top;
+  padding-top: 40px;
+}
+.analytical-behaviour .compaigns-info {
+  display: inline-block;
+  width: 47%;
+  vertical-align: top;
+  margin: 0 68px 68px 0;
+}
+.analytical-behaviour h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #004c5e;
+}
+.analytical-behaviour p {
+  font-size: 20px;
+  line-height: 30px;
+}
+.analytical-behaviour img {
+  width: 47%;
+}
+
+footer {
+  margin-left: -180px;
+  padding: 40px 0;
+}
+footer ul {
+  margin-bottom: 20px;
+}
+footer ul li {
+  display: inline-block;
+  margin-left: -4px;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+footer ul li a {
+  padding: 20px;
+  text-decoration: none;
+  color: #004c5e;
+  transition: color 3s, background-color 3s;
+}
+footer ul li a:hover {
+  color: #FFF;
+  background-color: #00465c;
+}
+footer p {
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=style.css.map */

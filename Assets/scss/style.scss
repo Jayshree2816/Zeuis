@@ -1,0 +1,237 @@
+$headingcolor : #004c5e;
+$textcolor : #FFF;
+$backgroundcolor : #00465c;
+$inputcolor : #00a3e5; 
+$infoheading : 30px;
+$comment : #19d1c7;
+$fontfamily : sans-serif;
+
+@mixin info{
+	display: inline-block;
+	width: 47%;
+	vertical-align: top;
+}
+.container {width: 100%;}
+.wrapper { 
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+}
+h1 { 
+	box-sizing: border-box;
+	width: 150px;
+	background-color: transparent;	
+	font-size: 0;
+	position: absolute;
+	margin-left: 300px;
+  z-index: 1;
+	img {
+		width: 100%;
+	}
+}
+.behaviour-analytics{
+	position: relative;
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: $textcolor; 
+	padding: 150px 0 100px;
+	text-align: center;
+	box-shadow: inset -6px -200px 161px -110px #00465c;
+	h2 {
+		box-sizing: border-box;
+		margin-bottom: 15px;
+		text-align: center;
+		font-size: 40px;
+		font-weight: 600;
+		text-transform: uppercase;
+		font-family: $fontfamily;
+	}
+	p {
+		box-sizing: border-box;
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.6;
+	}
+}
+
+.zeuis-Form {
+	background-color: $backgroundcolor;   
+	color: $textcolor;
+	font-family: $fontfamily;
+	padding: 10px 0;
+	.what-is-zeuis {
+		width: 47%;
+		margin-right: 80px; 
+    display: inline-block;
+		padding-bottom: 100px;
+		h2 {
+			font-size: $infoheading;
+			text-transform: uppercase;
+			font-family: $fontfamily;
+			padding-bottom: 20px;
+		}
+		p {
+			line-height: 30px;
+			margin-bottom: 15px;
+		}
+		span { font-weight: 600; }
+	}
+}
+
+.free-account-form {
+	width: 35%;
+	display: inline-block;
+  background-color: $textcolor;
+  color: black;
+  border-radius: 5px;
+  padding: 40px 60px 60px;  
+	h2 {
+		font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+	}
+	label {
+		display: block;
+		margin-bottom: 12px;
+	}
+	input {
+		width: 94%;
+		margin-top: 5px;
+		padding: 16px 10px 16px 10px;
+		border-radius: 5px;
+		display: block;
+		font-size: 17px;
+	}
+	#submit {
+		width: 35%;
+		padding: 12px 0px;
+    border-radius: 0;
+    background-color: $inputcolor;
+    color: $textcolor;
+    font-size: 16px;
+		box-shadow: 0px 5px 7px -4px grey;
+		transition: background-color 3s ;
+		&:hover {
+			background-color: $headingcolor;
+		}
+	}
+
+}
+
+.behaviour-Market {
+	padding: 60px 0;
+	border-bottom: 3px solid rgba(128, 128, 128, 0.16);
+	position: relative;
+	h3 {
+		font-size: $infoheading;
+    text-transform: uppercase;
+    font-family: $fontfamily;
+    color: $backgroundcolor;
+		margin-bottom: 70px;
+		font-weight: 600;
+	}
+	li {
+		display: inline-block;
+    width: 15%;
+		margin-right: 71px;
+		&:last-child{
+			margin-right: 0;
+		}
+	}
+	a {
+		display: inline-block;
+		width: 100%;
+	}
+	img {
+		width: 100%; 
+	}
+	#comments {
+			width: 2%;
+			padding: 15px;
+			border-radius: 50%;
+			position: absolute;
+			top: 30px;
+			right: 30px;
+			background-color: $comment;
+			transition: background-color 3s;
+			&:hover {
+				background-color: $headingcolor;
+			}
+		img {
+			transform: rotateY(180deg);	
+		}
+	}
+}
+
+.analytical-behaviour {
+	padding-bottom: 80px;
+	border-bottom: 1px solid rgba(128, 128, 128, 0.29);
+	.real-time {
+		padding: 80px 0;
+	}
+	.real-time-info {
+		@include info;
+		margin: 0 68px 68px 0;
+		padding-top: 80px;
+	}
+	.customer-lifecycle{
+		img{
+		margin: 0 68px 68px 0;
+		}
+		.lifecycle-info {
+			@include info;
+			padding-top: 40px;
+		}
+	}
+	
+	.compaigns-info{
+		@include info;
+		margin: 0 68px 68px 0;
+	}
+	h3 {
+		font-size: $infoheading;
+    text-transform: uppercase;
+    font-family: $fontfamily;
+    font-weight: 600;
+		margin-bottom: 20px;
+		color: $headingcolor;
+	}
+	p {
+		font-size: 20px;
+    line-height: $infoheading;
+	}
+	img {
+		width: 47%;
+	}
+} 
+footer {
+	margin-left: -180px;
+	padding: 40px 0;
+	ul {
+		margin-bottom: 20px;
+	li {
+		display: inline-block;
+		margin-left: -4px;
+		font-size: 18px;
+		font-family: sans-serif;	
+		a{
+			padding: 20px;
+			text-decoration: none;
+			color: $headingcolor;
+			transition: color 3s, background-color 3s;
+			&:hover {
+				color: $textcolor; 
+				background-color: $backgroundcolor;
+			}
+		}
+		}
+	}	
+	p {
+		padding-left: 20px;
+    font-size: 18px;
+	}
+}
+
+ 
